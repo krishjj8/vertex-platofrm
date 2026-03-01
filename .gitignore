@@ -1,0 +1,13 @@
+# IDE
+.idea/
+*.iml
+
+# OpenTofu
+.terraform/
+.tofu/
+*.tfstate*
+.terraform.lock.hcl
+
+
+*.tfvars
+secrets.tfvars
