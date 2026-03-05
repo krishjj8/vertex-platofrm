@@ -1,0 +1,11 @@
+apiVersion: s3.aws.upbound.io/v1beta1
+kind: Bucket
+metadata:
+  name: vertex-test-bucket-krish
+  annotations:
+    crossplane.io/external-name: vertex-test-bucket-krish-unique
+spec:
+  forProvider:
+    region: ap-south-1
+  providerConfigRef:
+    name: default
