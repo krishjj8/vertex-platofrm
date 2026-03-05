@@ -1,0 +1,12 @@
+apiVersion: iam.aws.upbound.io/v1beta1
+kind: User
+metadata:
+  name: vertex-platform-user
+---
+apiVersion: sqs.aws.upbound.io/v1beta1
+kind: Queue
+metadata:
+  name: vertex-app-queue
+spec:
+  forProvider:
+    region: ap-south-1
