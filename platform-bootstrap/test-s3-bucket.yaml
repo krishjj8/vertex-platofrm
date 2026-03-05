@@ -1,7 +1,7 @@
 apiVersion: s3.aws.upbound.io/v1beta1
 kind: Bucket
 metadata:
-  name: vertex-test-bucket-krish
+  name: vertex-test-bucket-krish-unique # Change suffix if name is taken
   annotations:
     crossplane.io/external-name: vertex-test-bucket-krish-unique
 spec:
